@@ -1,0 +1,40 @@
+
+/* Reset some default styles */
+body,
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: right;
+}
+
+/* Navigation styling */
+nav {
+    background: #444;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
